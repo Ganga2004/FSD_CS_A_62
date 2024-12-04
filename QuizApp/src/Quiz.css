@@ -1,0 +1,16 @@
+.header{
+    background-color: black;
+    color: white;
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+.quiz{
+    display: flex;
+    width: 50%;
+    height: 80vh;
+    font-size: 35px;
+    background-color: goldenrod;
+    
+}
