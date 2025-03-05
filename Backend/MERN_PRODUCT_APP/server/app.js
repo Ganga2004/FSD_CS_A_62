@@ -61,7 +61,10 @@ app.patch("/editproduct/:id", (req, res) => {
         }
     }
 })
-app.delete("/deleteproduct/:id")
+app.delete("/deleteproduct/:id",(req,res)=>{
+    const pid=req.params.id;
+    const index = products.findIndex(ind=>ind.id == pid);
+})
 app.listen(port, (err) => {
     try {
         if (err) throw err;
