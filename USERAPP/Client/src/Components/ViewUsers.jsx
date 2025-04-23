@@ -6,8 +6,7 @@ const ViewUsers = () => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState('');
 
-    // ✅ Replace this with your actual deployed Render backend URL
-    const apiUrl = 'https://your-app-name.onrender.com/api/users';
+    const apiUrl = 'https://useraap4.onrender.com/users';
 
     useEffect(() => {
         const fetchUsers = async () => {
